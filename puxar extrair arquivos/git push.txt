@@ -1,0 +1,21 @@
+//Iniciar Arquivo quando não tem a pasta
+git init
+
+//status
+git statuts
+
+//adicionar todas as pastas
+git add *
+
+//commitar os arquivos
+git commit -m "comentario da alteração"
+
+
+// adicionar o projeto pela primeira vez na pasta
+// as proximas alterações pode pular esse comando
+
+git remote add origin https://github.com/antonio2911/Javascript.git
+
+//empurrar para o git
+git push -u origin master
+
